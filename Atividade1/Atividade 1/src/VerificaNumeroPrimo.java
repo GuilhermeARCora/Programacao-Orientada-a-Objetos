@@ -4,15 +4,15 @@ public class VerificaNumeroPrimo {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Insira um número inteiro para verificar se é primo: ");
+        System.out.print("Digite um numero para verificar se e primo: ");
         int numero = scanner.nextInt();
 
         int resultado = VerificaNumeroPrimo(numero);
 
         if (resultado == 1) {
-            System.out.println(numero + " é primo.");
+            System.out.println(numero + " O numero é primo.");
         } else {
-            System.out.println(numero + " não é primo.");
+            System.out.println(numero + " O numero não é primo.");
         }
 
         scanner.close();
