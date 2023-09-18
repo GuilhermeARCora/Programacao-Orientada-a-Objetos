@@ -93,7 +93,7 @@ class Bicicleta extends Veiculo {
 // Classe Executavel
 public class Main {
     public static void main(String[] args) {
-        Carro carro = new Carro("Toyota", "Corolla", 2022, 4);
+        Carro carro = new Carro("Chevrolet", "Tracker", 2022, 4);
         Moto moto = new Moto("Honda", "CBR 600", 2021, true);
         Bicicleta bicicleta = new Bicicleta("Caloi", "XRT", 2020, 18);
 
