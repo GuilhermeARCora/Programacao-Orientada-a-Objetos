@@ -22,7 +22,7 @@ public class Sobrado extends Moradia {
     @Override
     public void descricao() {
         String possuiPiscina = temPiscina ? "com piscina" : "sem piscina";
-        System.out.println("Este é um sobrado localizado em " + getEndereco() + " com " + getNumeroQuartos() + " quartos, " + numAndares + " andares e " + possuiJardim + ".");
+        System.out.println("Este é um sobrado localizado em " + getEndereco() + " com " + getNumeroQuartos() + " quartos, " + numAndares + " andares e " + possuiPiscina + ".");
     }
 }
 
